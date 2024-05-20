@@ -1,0 +1,114 @@
+/* Regole generali pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+#container{
+    display: flex;
+    height: (100vh - 100px);
+}
+
+
+/****************************************
+          REGOLE MENU' SINISTRA
+*****************************************/
+
+#menu{
+    width: 250px;
+    min-height: 100px;
+      /* DEBUG */
+    background-color: black;
+    color: white;
+}
+
+
+
+/****************************************
+          REGOLE MENU' PRINCIPALE
+*****************************************/
+
+#main{
+    width: 100%;
+    height:100vh;
+    overflow-x: hidden;
+    background-color: #141922;
+    color: white;
+}
+.effettuaupgrade{
+    width: 100%;
+    height: 40px;
+    /* position: fixed; */
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+#main nav{
+    background-color: blue;
+    color: #74767b;
+    height: 50px
+}
+
+#main .album{
+    height: 100px;
+    width:calc(100% /6);
+    /* DEBUG */
+    background-color: yellow;
+    border: solid black 2px;
+}
+
+
+.raccolta{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/****************************************
+          REGOLE PLAYER
+*****************************************/
+
+#player{
+    width: 100%;
+    height: 100px;
+     /* DEBUG */
+     background-color: chartreuse;
+}
+
+
+
+
+/****************************************
+          REGOLE RESPONSIVE
+*****************************************/
+
+/* Spotify versione L */
+
+@media all and (max-width:831px){ 
+
+    #main .album{
+        width:calc(100% /4);
+ }
+
+}
+
+
+
+/* Spotify versione M */
+
+@media all and (max-width:710px){ 
+
+    #main .album{
+        width:calc(100% /2);
+ }
+
+}
