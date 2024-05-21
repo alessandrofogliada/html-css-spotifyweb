@@ -22,7 +22,6 @@ body{
 
 #menu{
     width: 250px;
-    min-height: 100px;
     padding-left: 10px;
 	line-height: 30px;
     background-color: black;
@@ -69,15 +68,16 @@ body{
 	height: 80px;
     padding-right: 10px;
 	/* position: fixed; */
-	background-color: blueviolet;
+	background-color: #080b12;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
 .effettuaupgrade a {
-	width: 27%;
+	width: 32%;
 	height: 30px;
+    font-size: 13px;
 	background-color: #080b12;
     color: white;
     border: solid 1px;
@@ -102,11 +102,16 @@ body{
  text-decoration: none;
 }
 
+#main h2 ,h3 {
+    margin-bottom: 10px;
+}
 
 
 #main .album{
     height: 100px;
     width:calc(100% /6);
+    margin-top: 30px;
+    margin-bottom: 35px;
     /* DEBUG */
     background-color: yellow;
     border: solid black 2px;
@@ -128,10 +133,103 @@ body{
 
 #player{
     width: 100%;
-    height: 100px;
-     /* DEBUG */
-     background-color: chartreuse;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    color: white;
 }
+
+.infobrano{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    /* background-color: blue; */
+}
+
+.infobrano img{
+    width: 20%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.infobrano span{
+    font-size: 10px;
+    margin-right: 35px;
+    color: #74767b;
+}
+
+.infobrano h6{
+    margin-bottom: -8px;
+}
+
+.infobrano i{
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.infobrano .volume{
+    width: 80px;
+    height: 3px;
+    border-radius: 25px;
+    background-color: #74767b;
+}
+
+.infobrano .volume div{
+    width: 30px;
+    height: 3px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+.infobrano .share i{
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.comandi{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    /* background-color: rgb(255, 0, 191); */
+}
+
+.comandi .volume{
+    width: 250px;
+    height: 3px;
+    border-radius: 25px;
+    margin: 0 6px;
+    background-color: #74767b;
+}
+
+.comandi i{
+    font-size: 16px;
+    margin: 0 4px 10px;
+}
+
+.comandi .minute {
+	width: 300px;
+	height: 20px;
+    font-size: 9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comandi .volume div{
+    width: 30px;
+    height: 3px;
+    border-radius: 25px;
+    color: white;
+}
+
 
 
 
@@ -159,6 +257,10 @@ body{
         width:calc(100% /2);
  }
 
+ .effettuaupgrade a {
+	width: 61%;
+ }
+
 }
 
 /* Spotify versione XS */
@@ -176,6 +278,10 @@ body{
 
     #main .album{
         width:calc(100% /2);
+ }
+
+ .effettuaupgrade a {
+	width: 91%;
  }
 
 .icon{
