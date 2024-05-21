@@ -57,7 +57,7 @@ body{
 
 #main{
     width: 100%;
-    height:100vh;
+    height:150vh;
     overflow-x: scroll;
     background-color: #141922;
     color: white;
@@ -67,23 +67,24 @@ body{
 	width: 100%;
 	height: 80px;
     padding-right: 10px;
-	/* position: fixed; */
-	background-color: #080b12;
+	position: fixed;
+	background-color: #080b12aa;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
 .effettuaupgrade a {
-	width: 32%;
-	height: 30px;
+	width: 23%;
+	height: 41px;
     font-size: 13px;
-	background-color: #080b12;
+	background-color: #080b12aa;
     color: white;
     border: solid 1px;
 	text-align: center;
 	border-radius: 25px;
-	padding-top: 3px;
+	padding-top: 10px;
+    margin-right: 200px;
 }
 
 #main nav {
@@ -91,6 +92,7 @@ body{
 	color: #74767b;
 	height: 50px;
     font-size: 12px;
+    margin-top: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,10 +108,14 @@ body{
     margin-bottom: 10px;
 }
 
+.regolatoremargin{
+    margin-left: 20px;
+}
+
 
 #main .album{
-    height: 100px;
-    width:calc(100% /6);
+    height: 130px;
+    width:calc((100% /6));
     margin-top: 30px;
     margin-bottom: 35px;
     /* DEBUG */
@@ -123,6 +129,7 @@ body{
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
@@ -258,7 +265,7 @@ body{
  }
 
  .effettuaupgrade a {
-	width: 61%;
+	width: 41%;
  }
 
 }
