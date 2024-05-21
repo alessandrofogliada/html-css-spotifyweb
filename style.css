@@ -26,6 +26,7 @@ body{
 	line-height: 30px;
     background-color: black;
     color: #a3a3a3;
+    position: relative;
 }
 
 .icon{
@@ -36,6 +37,7 @@ body{
 	margin: 12px 0;
 	width: 100%;
 	height: 45px;
+    padding-right: 46px;
 }
 
 .iconcine {
@@ -46,9 +48,55 @@ body{
     color: white;
 }
 
+#menu .iconcine i{
+    font-size: 16px;
+}
+
+#menu nav i{
+    font-size: 32px;
+}
+
+#menu .crea span{
+    padding-left: 4px;
+}
+
 .playlist li{
     list-style-type: none;
-    line-height: 37px;
+    line-height: 45px;
+}
+
+.account{
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+.account a{
+    text-decoration: none;
+    color: grey;
+}
+
+.account i{
+    margin-right: 5px;
+}
+
+.account hr{
+    width: 150px;
+}
+
+.account span{
+    margin-left: 4px;
+}
+
+#menu .account img {
+	height: 15px;
+	margin: 10px 0 0 0;
+	padding-right: 0px;
+	width: 20px;
+	background-color: grey;
+	border-radius: 25px;
 }
 
 /****************************************
@@ -57,7 +105,7 @@ body{
 
 #main{
     width: 100%;
-    height:150vh;
+    height:120vh;
     overflow-x: scroll;
     background-color: #141922;
     color: white;
@@ -78,6 +126,7 @@ body{
 	width: 23%;
 	height: 41px;
     font-size: 13px;
+    text-decoration: none;
 	background-color: #080b12aa;
     color: white;
     border: solid 1px;
@@ -129,7 +178,6 @@ body{
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 
@@ -262,17 +310,27 @@ body{
 
     #main .album{
         width:calc(100% /2);
- }
+    }
 
- .effettuaupgrade a {
+    .effettuaupgrade a {
 	width: 41%;
- }
+    }
+
+    #player .comandi .volume{
+        width: 170px;
+    }
+
+    #player .comandi i {
+        font-size: 13px;
+    }
 
 }
 
 /* Spotify versione XS */
 
 @media all and (max-width:420px){ 
+
+    /* Regole MENU */
 
     #menu{
         width: 50px;
@@ -283,21 +341,69 @@ body{
         display: none;
     }
 
+    .icon{
+        display: inline;
+        max-width: 40px;
+        max-height: 160px;
+        /* DEBUG */
+        /* /* background-color: yellow; */
+        } 
+
+    .regolatoremargin {
+            margin-left:0;
+        }
+        
+    .account{
+            left: 10px;
+        }
+
+     #menu img {
+             margin: 0;
+            width: 100%;
+            padding-right: 0;
+        }
+        
+    #menu i{
+            font-size: 24px;
+            color: #d2d2d2;
+            margin-bottom: 15px;
+        }
+        
+    #menu .account img{
+            height: 28px;
+            width: 28px;
+        }
+        
+    #menu .account i {
+        font-size: 15px;
+        padding-left: 5px;
+        }
+
+        /* REGOLE MAIN */
+
     #main .album{
         width:calc(100% /2);
- }
+    }
 
- .effettuaupgrade a {
-	width: 91%;
- }
+    .effettuaupgrade a {
+	width: 54%;
+    margin-right: 50px;
+    }
 
-.icon{
-    display: inline;
-    max-width: 40px;
-    max-height: 160px;
-    /* DEBUG */
-    background-color: yellow;
-}
+        /* REGOLE PLAYER */
+
+    #player .comandi .volume{
+        width: 100px;
+    }     
+
+    #player .comandi i {
+        font-size: 9px;
+    }
+
+   
+
+
+
 
 
 }
