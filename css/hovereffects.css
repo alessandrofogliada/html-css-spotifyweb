@@ -3,9 +3,10 @@
 
 /* Effetti Menu */
 
-.iconcine:hover{
-    color: white;
-    cursor: pointer;
+.iconcine:hover {
+	color: white;
+	cursor: pointer;
+	border-left: greenyellow solid 2px;
 }
 
 .playlist li:hover{
@@ -32,13 +33,21 @@
 .effettuaupgrade a:hover{
     width: 25%;
     height: 48px;
+    padding-top: 14px;
 }
 
 #main nav a:hover{
     color: white;
+    border-bottom: greenyellow 2px solid;
 }
 
+.album img:hover{
+    filter: opacity(0.4);
+}
 
+.album:hover .play{
+    display: inline-block;
+}
 
 
 /* Effetti Player */
@@ -51,6 +60,15 @@
 .comandi .fa-circle-play:hover{
     font-size: 20px;
     color: white;
+}
+
+.revelator i:hover{
+    font-size: 16px;
+    bottom: 7px;
+}
+
+.volume:hover{
+    cursor: pointer;
 }
  
 
