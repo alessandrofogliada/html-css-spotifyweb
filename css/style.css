@@ -46,9 +46,17 @@ body{
     padding-right: 46px;
 }
 
+/* #menu .fa-house{
+    color: white;
+} */
+
 .iconcine {
     width: 100%;
     padding-left: 20px;
+}
+
+.iconcine span{
+    color: white;
 }
 
 #menu h5{
@@ -173,6 +181,7 @@ body{
  color: #6e7176;
  text-decoration: none;
 }
+
 
 .underline {
 	height: 2px;
