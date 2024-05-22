@@ -67,8 +67,25 @@
     bottom: 7px;
 }
 
-.volume:hover{
+#player .comandi .volume div:hover{
     cursor: pointer;
 }
+
+.infobrano span:hover{
+    color: white;
+    cursor: pointer;
+
+}.volume .revelator{
+    cursor: pointer;
+}
+
+.revelator:hover{
+    background-color: greenyellow;
+}
+
+.revelator i:hover{
+    display: inline;
+}
+
  
 
