@@ -1,0 +1,56 @@
+
+/* EFFETTI HOVER  */
+
+/* Effetti Menu */
+
+.iconcine:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.playlist li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.crea span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.account a:hover{
+    color: white
+    ;
+}
+
+.account span:hover{
+    cursor: pointer;
+}
+
+/* Effetti Main */
+
+.effettuaupgrade a:hover{
+    width: 25%;
+    height: 48px;
+}
+
+#main nav a:hover{
+    color: white;
+}
+
+
+
+
+/* Effetti Player */
+
+
+.infobrano i:hover{
+    color: white;
+}
+
+.comandi .fa-circle-play:hover{
+    font-size: 20px;
+    color: white;
+}
+ 
+

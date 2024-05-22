@@ -23,7 +23,7 @@ body{
 #menu{
     width: 250px;
     padding-left: 10px;
-	line-height: 30px;
+    line-height: 30px;
     background-color: black;
     color: #a3a3a3;
     position: relative;
@@ -34,14 +34,14 @@ body{
 }
 
 #menu img {
-	margin: 12px 0;
-	width: 100%;
-	height: 45px;
+    margin: 12px 0;
+    width: 100%;
+    height: 45px;
     padding-right: 46px;
 }
 
 .iconcine {
-	width: 100%;
+    width: 100%;
 }
 
 #menu h5{
@@ -91,12 +91,12 @@ body{
 }
 
 #menu .account img {
-	height: 15px;
-	margin: 10px 0 0 0;
-	padding-right: 0px;
-	width: 20px;
-	background-color: grey;
-	border-radius: 25px;
+    height: 15px;
+    margin: 10px 0 0 0;
+    padding-right: 0px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 25px;
 }
 
 /****************************************
@@ -112,39 +112,39 @@ body{
 }
 
 .effettuaupgrade {
-	width: 100%;
-	height: 80px;
+    width: 100%;
+    height: 80px;
     padding-right: 10px;
-	position: fixed;
-	background-color: #080b12aa;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+    position: fixed;
+    background-color: #080b12aa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .effettuaupgrade a {
-	width: 23%;
-	height: 41px;
+    width: 23%;
+    height: 41px;
     font-size: 13px;
     text-decoration: none;
-	background-color: #080b12aa;
+    background-color: #080b12aa;
     color: white;
     border: solid 1px;
-	text-align: center;
-	border-radius: 25px;
-	padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 10px;
     margin-right: 200px;
 }
 
 #main nav {
-	background-color: #141922;
-	color: #74767b;
-	height: 50px;
+    background-color: #141922;
+    color: #74767b;
+    height: 50px;
     font-size: 12px;
     margin-top: 80px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main nav a{
@@ -167,14 +167,14 @@ body{
 
 
 #main .album {
-	height: 199px;
-	width: calc((93% /6));
-	margin: 30px 10px 35px 0;
-	display:block;
+    height: 199px;
+    width: calc((93% /6));
+    margin: 30px 10px 35px 0;
+    display:block;
     text-align: center;
     /* DEBUG */
     /* background-color: yellow;
-	border: solid black 2px; */
+    border: solid black 2px; */
 }
 
 .raccolta{
@@ -189,8 +189,8 @@ body{
 }
 
 .raccolta .album h4 {
-	margin-top: 10px;
-	font-size: 13px;
+    margin-top: 10px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -294,15 +294,16 @@ body{
 .comandi i{
     font-size: 16px;
     margin: 0 4px 10px;
+    color: #74767b;
 }
 
 .comandi .minute {
-	width: 300px;
-	height: 20px;
+    width: 300px;
+    height: 20px;
     font-size: 9px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .comandi .volume div{
@@ -310,6 +311,10 @@ body{
     height: 3px;
     border-radius: 25px;
     color: white;
+}
+
+.infobrano i{
+    color: #74767b;
 }
 
 
@@ -340,7 +345,7 @@ body{
     }
 
     .effettuaupgrade a {
-	width: 41%;
+    width: 41%;
     }
 
     #player .comandi .volume{
@@ -413,7 +418,7 @@ body{
     }
 
     .effettuaupgrade a {
-	width: 54%;
+    width: 54%;
     margin-right: 50px;
     }
 
@@ -426,11 +431,5 @@ body{
     #player .comandi i {
         font-size: 9px;
     }
-
-   
-
-
-
-
 
 }
